@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 288 288">
+  <defs>
+    <!-- Cell shading variations -->
+    <linearGradient id="tile-subtle-1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14171B" stop-opacity="0.85" />
+      <stop offset="100%" stop-color="#0E1013" stop-opacity="0.9" />
+    </linearGradient>
+    <linearGradient id="tile-subtle-2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#181C22" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#101216" stop-opacity="0.85" />
+    </linearGradient>
+    <linearGradient id="tile-subtle-3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1B2028" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#12151A" stop-opacity="0.8" />
+    </linearGradient>
+    <linearGradient id="tile-accent-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18241B" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#0D130E" stop-opacity="0.7" />
+    </linearGradient>
+  </defs>
+
+  <!-- Base background -->
+  <rect width="288" height="288" fill="#07080A" />
+
+  <!-- 6x6 Grid of 48px Cells with organic mosaic illumination -->
+  <!-- Row 0 -->
+  <rect x="0" y="0" width="48" height="48" fill="#0A0B0E" />
+  <rect x="48" y="0" width="48" height="48" fill="url(#tile-subtle-2)" />
+  <rect x="96" y="0" width="48" height="48" fill="#07080A" />
+  <rect x="144" y="0" width="48" height="48" fill="url(#tile-subtle-1)" />
+  <rect x="192" y="0" width="48" height="48" fill="#090A0D" />
+  <rect x="240" y="0" width="48" height="48" fill="url(#tile-subtle-3)" />
+
+  <!-- Row 1 -->
+  <rect x="0" y="48" width="48" height="48" fill="url(#tile-subtle-3)" />
+  <rect x="48" y="48" width="48" height="48" fill="#08090C" />
+  <rect x="96" y="48" width="48" height="48" fill="url(#tile-accent-glow)" />
+  <rect x="144" y="48" width="48" height="48" fill="#07080A" />
+  <rect x="192" y="48" width="48" height="48" fill="url(#tile-subtle-2)" />
+  <rect x="240" y="48" width="48" height="48" fill="#0A0B0E" />
+
+  <!-- Row 2 -->
+  <rect x="0" y="96" width="48" height="48" fill="#08090C" />
+  <rect x="48" y="96" width="48" height="48" fill="url(#tile-subtle-1)" />
+  <rect x="96" y="96" width="48" height="48" fill="#0A0B0E" />
+  <rect x="144" y="96" width="48" height="48" fill="url(#tile-subtle-3)" />
+  <rect x="192" y="96" width="48" height="48" fill="#07080A" />
+  <rect x="240" y="96" width="48" height="48" fill="url(#tile-subtle-1)" />
+
+  <!-- Row 3 -->
+  <rect x="0" y="144" width="48" height="48" fill="url(#tile-subtle-2)" />
+  <rect x="48" y="144" width="48" height="48" fill="#07080A" />
+  <rect x="96" y="144" width="48" height="48" fill="url(#tile-subtle-3)" />
+  <rect x="144" y="144" width="48" height="48" fill="#08090C" />
+  <rect x="192" y="144" width="48" height="48" fill="url(#tile-accent-glow)" />
+  <rect x="240" y="144" width="48" height="48" fill="#090A0D" />
+
+  <!-- Row 4 -->
+  <rect x="0" y="192" width="48" height="48" fill="#07080A" />
+  <rect x="48" y="192" width="48" height="48" fill="url(#tile-subtle-3)" />
+  <rect x="96" y="192" width="48" height="48" fill="#0A0B0E" />
+  <rect x="144" y="192" width="48" height="48" fill="url(#tile-subtle-2)" />
+  <rect x="192" y="192" width="48" height="48" fill="#08090C" />
+  <rect x="240" y="192" width="48" height="48" fill="url(#tile-subtle-1)" />
+
+  <!-- Row 5 -->
+  <rect x="0" y="240" width="48" height="48" fill="url(#tile-subtle-1)" />
+  <rect x="48" y="240" width="48" height="48" fill="#090A0D" />
+  <rect x="96" y="240" width="48" height="48" fill="url(#tile-subtle-2)" />
+  <rect x="144" y="240" width="48" height="48" fill="#07080A" />
+  <rect x="192" y="240" width="48" height="48" fill="url(#tile-subtle-3)" />
+  <rect x="240" y="240" width="48" height="48" fill="#08090C" />
+
+  <!-- Hairline Grid Lines (Exact SecuNet Stroke) -->
+  <path
+    d="
+      M0.5,0 L0.5,288 M48.5,0 L48.5,288 M96.5,0 L96.5,288 M144.5,0 L144.5,288 M192.5,0 L192.5,288 M240.5,0 L240.5,288
+      M0,0.5 L288,0.5 M0,48.5 L288,48.5 M0,96.5 L288,96.5 M0,144.5 L288,144.5 M0,192.5 L288,192.5 M0,240.5 L288,240.5
+    "
+    stroke="rgba(255, 255, 255, 0.05)"
+    stroke-width="1"
+    shape-rendering="crispEdges"
+  />
+</svg>
